@@ -1,7 +1,8 @@
 # TinyCode by Fabián Alfonso Beirutti Pérez
-Tiny code project with a restriction of 1000 characters using p5.js. You can check the sketch on the following link:
+Tiny code project with a restriction of 1000 characters using p5.js. You can check the sketch on either of the following links:
 
-<p align="center">https://fabbeiru.github.io/TinyCode/</p>
+<p align="center">https://fabbeiru.github.io/TinyCode/
+https://editor.p5js.org/Fabbeiru/full/BbCCK6BTv</p>
 
 ## Introducción
 El objetivo de esta práctica de la asignatura de 4to, Creación de Interfaces de Usuario (CIU), es desarrollar un pequeño programa con temática libre y restricción de 1000 caracteres. Para ello, se ha pedido el diseño de un *sketch* usando la librería de JavaScript, P5.js, la cual, permite realizar una gran variedad de proyectos que se pueden llegar a incluir en el código de una página web, facilitando así su apreciación y/o uso para cualquier usuario que acceda a la dirección de Internet correspondiente.
@@ -92,6 +93,10 @@ function spray() {
 Para poder probar correctamente el código, descargar los ficheros (el .zip del repositorio) y en la carpeta obtenida al descomprimir el .zip, se encuentran los archivos de la aplicación listos para probar y ejecutar, en este caso, el archivo HTML *index.html*. Se nos abrirá entonces una ventana del navegador en el que se muestra el resultado del programa.
 
 El archivo "README.md" es opcional, si se descarga no debería influir en el funcionamiento del código ya que, son usados para darle formato a la presentación y explicación del repositorio en la plataforma GitHub.
+
+Si se desea únicamente apreciar el resultado puede hacerse en los siguientes enlaces:
+<p align="center">https://fabbeiru.github.io/TinyCode/
+https://editor.p5js.org/Fabbeiru/full/BbCCK6BTv</p>
 
 ## Recursos empleados
 Para la realización de este sistema planetario en 3D, se han consultado y/o utilizado los siguientes recursos:
