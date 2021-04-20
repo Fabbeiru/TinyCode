@@ -6,7 +6,7 @@ Tiny code project with a restriction of 1000 characters using p5.js. You can che
 ## Introducción
 El objetivo de esta práctica de la asignatura de 4to, Creación de Interfaces de Usuario (CIU), es desarrollar un pequeño programa con temática libre y restricción de 1000 caracteres. Para ello, se ha pedido el diseño de un *sketch* usando la librería de JavaScript, P5.js, la cual, permite realizar una gran variedad de proyectos que se pueden llegar a incluir en el código de una página web, facilitando así su apreciación y/o uso para cualquier usuario que acceda a la dirección de Internet correspondiente.
 
-Esta librería es muy versátil ya que, podemos programar nuestro programa o bien localmente al desarrollar el código que compone nuestra página web, o bien con el editor online que nos proporciona la página web de referencia de la biblioteca de JavaScript (<a href="https://p5js.org/es/">enlace a web p5.js</a>).
+Esta librería es muy versátil, nos permite programar nuestro aplicación o bien localmente al desarrollar el código que compone nuestra página web, o bien con el editor online que nos proporciona la página web de referencia de la biblioteca de JavaScript (<a href="https://p5js.org/es/">enlace a web p5.js</a>).
 <p align="center"><img src="/tinyCodeGif.gif" alt="Tiny code project using P5.js"></img></p>
 
 ## Controles
