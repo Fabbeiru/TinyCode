@@ -20,7 +20,73 @@ Para este proyecto, hemos trabajado usando tanto el editor web como localmente. 
 
 ## Explicación
 ### Sketch
- 
+Esta es la clase principal de la aplicación, la cual gestiona la información mostrada por pantalla al usuario (interfaz gráfica), esto es, el desarrollo de los métodos setup() y draw().
+```java
+function setup() {
+  createCanvas(400, 400);
+  background(220);
+  startX = random(width);
+  startY = random(height);
+  speedX = 5;
+  speedY = 4.5;
+  circleEffect = true;
+  x = width/2;
+  y = height/2;
+  sprayEffect = false;
+}
+
+function draw() {
+  r = random (255);
+  g = random (255);
+  b = random (255);
+  stroke(r, g, b);
+  if (circleEffect) circles();
+  else spray();
+}
+```
+Como se puede ver, en la función *setup()*, cargamos e inicializamos todas las variables y objetos que vamos utilizar a lo largo del programa. Además, en la función *draw()*, controlamos, según los valores de variables booleanas que se manejan según la interacción del usuario con la aplicación, que efectos se muestran por pantalla.
+
+Por otra parte, esta misma clase es la que maneja la interacción entre el usuario y la interfaz mediante la implementación de los métodos *keyTyped()*, entre otros. Un ejemplo se muestra a continuación:
+```java
+function keyTyped() {
+  if (key === 'r' || key === 'R') {
+    clear();
+    background(220);
+  }
+  if (key === 'c' || key === 'C') {
+    clear();
+    background(220);
+    circleEffect = !circleEffect;
+    sprayEffect = !sprayEffect;
+  } 
+}
+```
+Por último, tenemos los métodos que definen los efectos a mostrar, *circles()* y *spray()*:
+```java
+function circles() {
+  strokeWeight(12.5);
+  point(startX, startY);
+  startX += speedX;
+  startY += speedY;
+
+  if (startX < 0 || startX > width) speedX *= -1;
+
+  if (startY < 0 || startY > height) speedY *= -1;
+}
+
+function spray() {
+  strokeWeight(0.5);
+  stroke(0);
+  fill(r,g,b);
+  for (let i = 0; i < 1000; i++) {
+    x += random(-1, 1);
+    y += random(-1, 1);
+    x = constrain(x, 0, width);
+    y = constrain(y, 0, height);
+    ellipse(x, y, 15, 15);
+  }
+}
+```
 
 ## Descarga y prueba
 Para poder probar correctamente el código, descargar los ficheros (el .zip del repositorio) y en la carpeta obtenida al descomprimir el .zip, se encuentran los archivos de la aplicación listos para probar y ejecutar, en este caso, el archivo HTML *index.html*. Se nos abrirá entonces una ventana del navegador en el que se muestra el resultado del programa.
