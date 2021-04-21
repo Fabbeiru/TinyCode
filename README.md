@@ -97,6 +97,11 @@ Si se desea únicamente apreciar el resultado puede hacerse en los siguientes en
 - https://fabbeiru.github.io/TinyCode/
 - https://editor.p5js.org/Fabbeiru/full/BbCCK6BTv
 
+A continuación se muestran dos resultados obtenidos al visualizar los efectos *circles()* y *spray()*:
+circlesEffect | sprayEffect
+--------------|------------
+<img src="/circles.png" alt="Result of circlesEffect"></img> | <img src="/spray.png" alt="Result of sprayEffect"></img>
+
 ## Recursos empleados
 Para la realización de este sistema planetario en 3D, se han consultado y/o utilizado los siguientes recursos:
 * Guión de prácticas de la asignatura CIU
