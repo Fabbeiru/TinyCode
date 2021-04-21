@@ -9,6 +9,11 @@ El objetivo de esta práctica de la asignatura de 4to, Creación de Interfaces d
 Esta librería es muy versátil, nos permite programar nuestro aplicación o bien localmente al desarrollar el código que compone nuestra página web, o bien con el editor online que nos proporciona la página web de referencia de la biblioteca de JavaScript (<a href="https://p5js.org/es/">enlace a web p5.js</a>).
 <p align="center"><img src="/tinyCodeGif.gif" alt="Tiny code project using P5.js"></img></p>
 
+A continuación se muestran dos resultados obtenidos al visualizar los efectos *circles()* y *spray()*:
+circlesEffect | sprayEffect
+--------------|------------
+<img src="/circles.png" alt="Result of circlesEffect"></img> | <img src="/spray.png" alt="Result of sprayEffect"></img>
+
 ## Controles
 Los controles de la aplicación se mostrarán en todo momento por pantalla para facilitar su uso al usuario:
 - **Tecla R:** Limpia el lienzo/canvas y reinicia el efecto.
@@ -96,11 +101,6 @@ El archivo "README.md" es opcional, si se descarga no debería influir en el fun
 Si se desea únicamente apreciar el resultado puede hacerse en los siguientes enlaces:
 - https://fabbeiru.github.io/TinyCode/
 - https://editor.p5js.org/Fabbeiru/full/BbCCK6BTv
-
-A continuación se muestran dos resultados obtenidos al visualizar los efectos *circles()* y *spray()*:
-circlesEffect | sprayEffect
---------------|------------
-<img src="/circles.png" alt="Result of circlesEffect"></img> | <img src="/spray.png" alt="Result of sprayEffect"></img>
 
 ## Recursos empleados
 Para la realización de este sistema planetario en 3D, se han consultado y/o utilizado los siguientes recursos:
