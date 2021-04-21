@@ -21,7 +21,7 @@ Para este proyecto, hemos trabajado usando tanto el editor web como localmente. 
 ## Explicación
 ### Sketch
 Esta es la clase principal de la aplicación, la cual gestiona la información mostrada por pantalla al usuario (interfaz gráfica), esto es, el desarrollo de los métodos setup() y draw().
-```java
+```javascript
 function setup() {
   createCanvas(400, 400);
   background(220);
@@ -47,7 +47,7 @@ function draw() {
 Como se puede ver, en la función *setup()*, cargamos e inicializamos todas las variables y objetos que vamos utilizar a lo largo del programa. Además, en la función *draw()*, controlamos, según los valores de variables booleanas que se manejan según la interacción del usuario con la aplicación, que efectos se muestran por pantalla.
 
 Por otra parte, esta misma clase es la que maneja la interacción entre el usuario y la interfaz mediante la implementación de los métodos *keyTyped()*, entre otros. Un ejemplo se muestra a continuación:
-```java
+```javascript
 function keyTyped() {
   if (key === 'r' || key === 'R') {
     clear();
@@ -62,7 +62,7 @@ function keyTyped() {
 }
 ```
 Por último, tenemos los métodos que definen los efectos a mostrar, *circles()* y *spray()*:
-```java
+```javascript
 function circles() {
   strokeWeight(12.5);
   point(startX, startY);
