@@ -103,7 +103,7 @@ Si se desea únicamente apreciar el resultado puede hacerse en los siguientes en
 - https://editor.p5js.org/Fabbeiru/full/BbCCK6BTv
 
 ## Recursos empleados
-Para la realización de este sistema planetario en 3D, se han consultado y/o utilizado los siguientes recursos:
+Para la realización de este proyecto, se han consultado y/o utilizado los siguientes recursos:
 * Guión de prácticas de la asignatura CIU
 * <a href="https://p5js.org/es/">Página de oficial de P5.js y sus referencias y ayudas</a>
 * Editor web de P5.js.
